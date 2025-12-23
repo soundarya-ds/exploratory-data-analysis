@@ -23,6 +23,11 @@ The dataset provides country-level prevalence statistics for different mental he
 - Trend analysis over time
 - Data visualization across countries and years
 
+## Missing Values
+The dataset contains missing values only in the `Code` column, which represents country codes.
+Since this column is not required for analysis, it was removed. All remaining columns contain
+complete data.
+
 ## Outcome
 Identified key patterns in mental illness prevalence, observed variations across countries, and analyzed temporal trends that highlight changes in mental health prevalence over time.
 
